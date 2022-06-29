@@ -1,0 +1,57 @@
+.todo-header {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;;
+}
+
+.todo-form {
+  display: flex;
+}
+
+.todo-form input {
+  flex: 1;
+  display: block;
+  width: 100%;
+  height: calc(2.25rem + 2px);
+  padding: 0.375rem 0.75rem;
+  text-transform: capitalize;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.todo-form input[type='text'] {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.todo-form button {
+  display: inline-block;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  min-width: 100px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: #eee;
+  border: 1px solid #bdbdbd;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: background-color .15s ease-in-out;
+}
+
+.todo-form button:hover {
+  background-color: #bdbdbd;
+}
